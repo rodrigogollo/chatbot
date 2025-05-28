@@ -8,13 +8,13 @@ import AppSideBar from "@/components/AppSideBar/AppSideBar";
 
 const chat = () => {
   return (
-    <SidebarProvider>
-      <AppSideBar />
-      <main className="flex w-screen">
-        <SidebarTrigger />
+    <>
+      <SidebarProvider>
+        <SidebarTrigger className="fixed top-0 left-0 z-100" />
+        <AppSideBar />
         <Chat />
-      </main>
-    </SidebarProvider>
+      </SidebarProvider>
+    </>
   )
 }
 
