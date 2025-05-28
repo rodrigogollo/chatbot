@@ -10,7 +10,7 @@ const chat = () => {
   return (
     <>
       <SidebarProvider>
-        <SidebarTrigger className="fixed top-0 left-0 z-100" />
+        <SidebarTrigger className="fixed top-2 left-0 z-100" />
         <AppSideBar />
         <Chat />
       </SidebarProvider>
